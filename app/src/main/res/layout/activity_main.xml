@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPuple"
+            android:gravity="center_horizontal"
+            android:text="안드로이드 예저입니다"
+            android:textAlignment="center"
+            android:textSize="10pt" />
+
+        <Button
+            android:id="@+id/_1_linearlayerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01. LinearLayer 예제" />
+
+        <Button
+            android:id="@+id/_02_widgetBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="02. widgetBtn 예제" />
+
+        <Button
+            android:id="@+id/_03_EventBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="03. EventBtn 예제" />
+
+        <Button
+            android:id="@+id/_4_toucheventBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="04. TouchEvent 예제" />
+
+        <Button
+            android:id="@+id/_5_swipeEventBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="05. SwipeEventBtn 예제" />
+
+        <Button
+            android:id="@+id/_6_SendMessageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="06. Activity에 Message 전달 예제" />
+
+        <Button
+            android:id="@+id/_7_DataFromBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="07. Activity로 부터 data전달 예제" />
+
+        <Button
+            android:id="@+id/_8_ANRBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="08. Activity ANR 예제" />
+
+        <Button
+            android:id="@+id/_9_CounterLogBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="09. Counter Log 예제" />
+
+        <Button
+            android:id="@+id/_10_CounterLoProgressBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Counter Log(ProgressBar) 예제" />
+
+        <Button
+            android:id="@+id/_11_CounterLogHandlerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. Counter Log(Handler) 예제" />
+
+        <Button
+            android:id="@+id/_12_BookSearchSimpleBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. 도서검색 프로그램(간단) 예제" />
+
+        <Button
+            android:id="@+id/_13_BookSearchExtendBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13. 도서검색 프로그램(확장) 예제" />
+
+        <Button
+            android:id="@+id/_14_ImplicitIntentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14. Implicit Intent를 이용한 Activity 예제" />
+
+        <Button
+            android:id="@+id/_15_ServiceLifeCycleBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15. Service Life Cycle 예제" />
+
+        <Button
+            android:id="@+id/_16_ActivityServiceDataBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16. Activity와 Service의 데이터 전달 예제" />
+
+        <Button
+            android:id="@+id/_17_KAKAOBookSearchBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="17. KAKAO 도서 검색 예제" />
+
+        <Button
+            android:id="@+id/_18_BRTestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18. Broadcast Receiver 실습" />
+
+        <Button
+            android:id="@+id/_19_BRSMSBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19. BRSMSBtn 실습" />
+
+        <Button
+            android:id="@+id/_20_BRNotiBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20. Broadcast Receiver를 이용한 알림" />
+
+        <Button
+            android:id="@+id/_21_SQLiteBasicBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21. SQLite Basic 실습" />
+
+        <Button
+            android:id="@+id/_22_SQLiteHelperBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="22. SQLite Helper 실습" />
+
+        <Button
+            android:id="@+id/_23_CPExamBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="23. Content Provider 실습" />
+
+        <Button
+            android:id="@+id/_24_contactBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24. 주소록 데이터 사용 실습" />
+
+        <Button
+            android:id="@+id/_25_arduinoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="25. to Arduino from android 실습" />
+
+        <Button
+            android:id="@+id/_25_arduino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="25. to Arduino from android 실습(강사님꺼)" />
+
+        <Button
+            android:id="@+id/_26_arduinoChageLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="26. arduinoChageLight" />
+    </LinearLayout>
+</ScrollView>
